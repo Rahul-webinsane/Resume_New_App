@@ -1,0 +1,43 @@
+
+
+.section-main {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../../assets/img/notebook1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-size: cover;
+  margin-top: 0;
+  position: fixed;
+  overflow-x: scroll;
+  /* min-width: 100%; */
+
+}
+
+.card{ background-color: rgba(245, 245, 245, 0.4); }
+
+.card-body h4 {
+  font-family: 'Playfair Display', serif;
+}
+
+.pcolor{
+  color: white;
+  font-family: 'Playfair Display', serif;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  /* margin-top: 0;
+  margin-bottom: 1rem; */
+  color:whitesmoke;
+  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.section-subheading {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* margin-bottom: 4rem; */
+}

@@ -1,0 +1,111 @@
+.section-main {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../assets/img/cloud.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-size: cover;
+  margin-top: 0;
+  position: fixed;
+  overflow-x: scroll;
+  /* min-width: 100%; */
+}
+
+p.lead {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+}
+
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+  /* &:last-child {
+      margin-right: 0;
+    } */
+}
+/* .social-icons a :hover {
+  background-color: #bd5d38;
+} */
+
+.social-icons > a :hover {
+color: grey;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.list-inline-item :hover {
+      color:grey;
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+/*
+.resume-date {
+  min-width: none;
+} */
+
+section.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+}
+
+/* @media (min-width: 768px) {
+  section.resume-section .resume-item  resume-date{
+    min-height: 100vh;
+    min-width: 18rem;
+  }
+} */
+
+
+
+.dev-icons {
+  font-size: 3rem;
+  /* .list-inline-item i {
+    &:hover {
+      color: $primary;
+    }
+  } */
+}
+
+.dev-icons .list-inline-item i :hover {
+  color: orange;
+}
+

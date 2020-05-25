@@ -1,0 +1,36 @@
+<div class="no-padding">
+  <nav  class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid my-2">
+      <a class="navbar-brand " href="#">Web <span class="text-danger text-capitalize">I</span>nsane Studios</a>
+      <button class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"  data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link js-scroll-trigger" (click)="setPageTitle('Home')" routerLinkActive="active"  routerLink="/home" >Home</a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link js-scroll-trigger" (click)="setPageTitle('about-me')" routerLinkActive="active"  routerLink="/about">About Me</a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link js-scroll-trigger" (click)="setPageTitle('services')" routerLinkActive="active"  routerLink="/services" >Services</a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link js-scroll-trigger" (click)="setPageTitle('contact-us')" routerLinkActive="active"  routerLink="/contact">Contact</a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link" href="#">Blogs</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+
+

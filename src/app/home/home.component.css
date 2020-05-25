@@ -1,0 +1,142 @@
+#home-section {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../../assets/img/sunset.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+  /* min-width: 100%; */
+  /* overflow-x: scroll; */
+
+}
+
+.container.a :hover{
+  background-color: red;
+  color: cadetblue;
+}
+
+
+
+
+#left-container{
+  font-family: 'Lora' , sans-serif;
+  /* display: flex; */
+  align-content: center;
+}
+
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+header.masthead .masthead-subheading {
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+header.masthead .masthead-heading {
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 10rem;
+    padding-bottom: 12.5rem;
+  }
+  header.masthead .masthead-subheading {
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+  }
+  header.masthead .masthead-heading {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+  }
+}
+
+
+
+/* body {
+  margin-top: 0rem;
+} */
+
+
+
+.btn{
+  border: 1px solid #677fe9;
+  background: none;
+  font-size: 20px;
+  padding: 10px 20px;
+  font-family: fantasy;
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.btn1{
+  color: #677fe9;
+}
+
+.btn1:hover{
+  color: #fff;
+}
+
+.btn::before{
+  position: absolute;
+  content: "";
+  left: 0;
+  width: 100%;
+    height: 0%;
+    background: #a27fbf ;
+    z-index: -1;
+    transition: 0.8s;
+}
+.btn1::before{
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+
+.btn:hover::before{
+  height: 180%;
+}
+
+span:before{
+  content:'';
+  transition: linear;
+  animation: animate infinite 8s;
+}
+
+@keyframes animate{
+  0%{
+    content:'Rahul';
+  }
+  20%{
+    content: "a Web Developer";
+  }
+  40%{
+    content: "Front End Developer";
+  }
+  100%{
+    content: "Learner";
+  }
+}
+
